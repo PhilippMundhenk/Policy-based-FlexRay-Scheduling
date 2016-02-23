@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<fx:FIBEX xmlns:fx="http://www.asam.net/xml/fbx" VERSION="2.0.1" xmlns:can="http://www.asam.net/xml/fbx/can" xmlns:flexray="http://www.asam.net/xml/fbx/flexray" xmlns:ho="http://www.asam.net/xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.asam.net/xml/fbx/all http://www.asam.net/xml/fbx/2_0_1/xsd/fibex4multiplatform.xsd">
+
+  <fx:PROJECT ID="FBX_ID_33">
+    <ho:SHORT-NAME xmlns:ho="http://www.asam.net/xml">FIBEX_EXPORT</ho:SHORT-NAME>
+  </fx:PROJECT>
+
+  <fx:ELEMENTS>
+    <fx:CLUSTERS>
+      <fx:CLUSTER ID="FBX_ID_49" xsi:type="flexray:CLUSTER-TYPE">
+        <ho:SHORT-NAME xmlns:ho="http://www.asam.net/xml">FlexRayNetwork_1</ho:SHORT-NAME>
+        <ho:LONG-NAME xmlns:ho="http://www.asam.net/xml">FlexRayNetwork_1</ho:LONG-NAME>
+        <ho:DESC xmlns:ho="http://www.asam.net/xml">A FlexRay Network</ho:DESC>
+        <fx:SPEED>10000000</fx:SPEED>
+        <fx:IS-HIGH-LOW-BIT-ORDER>true</fx:IS-HIGH-LOW-BIT-ORDER>
+        <fx:BIT-COUNTING-POLICY>MONOTONE</fx:BIT-COUNTING-POLICY>
+        <fx:PROTOCOL xsi:type="flexray:PROTOCOL-TYPE">FlexRay</fx:PROTOCOL>
+        <fx:CHANNEL-REFS>
+          <fx:CHANNEL-REF ID-REF="FBX_ID_51"/>
+          <fx:CHANNEL-REF ID-REF="FBX_ID_53"/>
+        </fx:CHANNEL-REFS>
+        <fx:NUMBER-OF-CYCLES>1</fx:NUMBER-OF-CYCLES>
+        <flexray:COLD-START-ATTEMPTS xmlns:flexray="http://www.asam.net/xml/fbx/flexray">10</flexray:COLD-START-ATTEMPTS>
+        <flexray:ACTION-POINT-OFFSET xmlns:flexray="http://www.asam.net/xml/fbx/flexray">6</flexray:ACTION-POINT-OFFSET>
+        <flexray:DYNAMIC-SLOT-IDLE-PHASE xmlns:flexray="http://www.asam.net/xml/fbx/flexray">0</flexray:DYNAMIC-SLOT-IDLE-PHASE>
+        <flexray:MINISLOT xmlns:flexray="http://www.asam.net/xml/fbx/flexray">62</flexray:MINISLOT>
+        <flexray:MINISLOT-ACTION-POINT-OFFSET xmlns:flexray="http://www.asam.net/xml/fbx/flexray">3</flexray:MINISLOT-ACTION-POINT-OFFSET>
+        <flexray:N-I-T xmlns:flexray="http://www.asam.net/xml/fbx/flexray">208</flexray:N-I-T>
+        <flexray:SAMPLE-CLOCK-PERIOD xmlns:flexray="http://www.asam.net/xml/fbx/flexray">0.0125</flexray:SAMPLE-CLOCK-PERIOD>
+        <flexray:STATIC-SLOT xmlns:flexray="http://www.asam.net/xml/fbx/flexray">65</flexray:STATIC-SLOT>
+        <flexray:SYMBOL-WINDOW xmlns:flexray="http://www.asam.net/xml/fbx/flexray">139</flexray:SYMBOL-WINDOW>
+        <flexray:T-S-S-TRANSMITTER xmlns:flexray="http://www.asam.net/xml/fbx/flexray">6</flexray:T-S-S-TRANSMITTER>
+        <flexray:WAKE-UP xmlns:flexray="http://www.asam.net/xml/fbx/flexray">
+          <flexray:WAKE-UP-SYMBOL-RX-IDLE>59</flexray:WAKE-UP-SYMBOL-RX-IDLE>
+          <flexray:WAKE-UP-SYMBOL-RX-LOW>55</flexray:WAKE-UP-SYMBOL-RX-LOW>
+          <flexray:WAKE-UP-SYMBOL-RX-WINDOW>301</flexray:WAKE-UP-SYMBOL-RX-WINDOW>
+          <flexray:WAKE-UP-SYMBOL-TX-IDLE>180</flexray:WAKE-UP-SYMBOL-TX-IDLE>
+          <flexray:WAKE-UP-SYMBOL-TX-LOW>60</flexray:WAKE-UP-SYMBOL-TX-LOW>
+        </flexray:WAKE-UP>
+        <flexray:LISTEN-NOISE xmlns:flexray="http://www.asam.net/xml/fbx/flexray">2</flexray:LISTEN-NOISE>
+        <flexray:MACRO-PER-CYCLE xmlns:flexray="http://www.asam.net/xml/fbx/flexray">5000</flexray:MACRO-PER-CYCLE>
+        <flexray:MACROTICK xmlns:flexray="http://www.asam.net/xml/fbx/flexray">1</flexray:MACROTICK>
+        <flexray:MAX-INITIALIZATION-ERROR xmlns:flexray="http://www.asam.net/xml/fbx/flexray">0.49007500000000004</flexray:MAX-INITIALIZATION-ERROR>
+        <flexray:MAX-WITHOUT-CLOCK-CORRECTION-FATAL xmlns:flexray="http://www.asam.net/xml/fbx/flexray">2</flexray:MAX-WITHOUT-CLOCK-CORRECTION-FATAL>
+        <flexray:MAX-WITHOUT-CLOCK-CORRECTION-PASSIVE xmlns:flexray="http://www.asam.net/xml/fbx/flexray">2</flexray:MAX-WITHOUT-CLOCK-CORRECTION-PASSIVE>
+        <flexray:NETWORK-MANAGEMENT-VECTOR-LENGTH xmlns:flexray="http://www.asam.net/xml/fbx/flexray">2</flexray:NETWORK-MANAGEMENT-VECTOR-LENGTH>
+        <flexray:NUMBER-OF-MINISLOTS xmlns:flexray="http://www.asam.net/xml/fbx/flexray">10</flexray:NUMBER-OF-MINISLOTS>
+        <flexray:NUMBER-OF-STATIC-SLOTS xmlns:flexray="http://www.asam.net/xml/fbx/flexray">62</flexray:NUMBER-OF-STATIC-SLOTS>
+        <flexray:OFFSET-CORRECTION-START xmlns:flexray="http://www.asam.net/xml/fbx/flexray">4987</flexray:OFFSET-CORRECTION-START>
+        <flexray:PAYLOAD-LENGTH-STATIC xmlns:flexray="http://www.asam.net/xml/fbx/flexray">21</flexray:PAYLOAD-LENGTH-STATIC>
+        <flexray:SYNC-NODE-MAX xmlns:flexray="http://www.asam.net/xml/fbx/flexray">15</flexray:SYNC-NODE-MAX>
+        <flexray:CAS-RX-LOW-MAX xmlns:flexray="http://www.asam.net/xml/fbx/flexray">81</flexray:CAS-RX-LOW-MAX>
+        <flexray:CAS-RX-LOW-MIN xmlns:flexray="http://www.asam.net/xml/fbx/flexray">29</flexray:CAS-RX-LOW-MIN>
+        <flexray:BIT xmlns:flexray="http://www.asam.net/xml/fbx/flexray">0.10000000000000001</flexray:BIT>
+        <flexray:CYCLE xmlns:flexray="http://www.asam.net/xml/fbx/flexray">5000</flexray:CYCLE>
+        <flexray:CLUSTER-DRIFT-DAMPING xmlns:flexray="http://www.asam.net/xml/fbx/flexray">1</flexray:CLUSTER-DRIFT-DAMPING>
+        <flexray:OFFSET-CORRECTION-MAX xmlns:flexray="http://www.asam.net/xml/fbx/flexray">6.4490000000000007</flexray:OFFSET-CORRECTION-MAX>
+      </fx:CLUSTER>
+    </fx:CLUSTERS>
+    <fx:CHANNELS>
+      <fx:CHANNEL ID="FBX_ID_51" xsi:type="flexray:CHANNEL-TYPE">
+        <ho:SHORT-NAME xmlns:ho="http://www.asam.net/xml">Channel_A_FlexRayNetwork_1</ho:SHORT-NAME>
+        <ho:LONG-NAME xmlns:ho="http://www.asam.net/xml">Channel A FlexRayNetwork_1</ho:LONG-NAME>
+        <ho:DESC xmlns:ho="http://www.asam.net/xml">This channel was created automatically.</ho:DESC>
+        <flexray:FLEXRAY-CHANNEL-NAME xmlns:flexray="http://www.asam.net/xml/fbx/flexray">A</flexray:FLEXRAY-CHANNEL-NAME>
+      </fx:CHANNEL>
+      <fx:CHANNEL ID="FBX_ID_53" xsi:type="flexray:CHANNEL-TYPE">
+        <ho:SHORT-NAME xmlns:ho="http://www.asam.net/xml">Channel_B_FlexRayNetwork_1</ho:SHORT-NAME>
+        <ho:LONG-NAME xmlns:ho="http://www.asam.net/xml">Channel B FlexRayNetwork_1</ho:LONG-NAME>
+        <ho:DESC xmlns:ho="http://www.asam.net/xml">This channel was created automatically.</ho:DESC>
+        <flexray:FLEXRAY-CHANNEL-NAME xmlns:flexray="http://www.asam.net/xml/fbx/flexray">B</flexray:FLEXRAY-CHANNEL-NAME>
+      </fx:CHANNEL>
+    </fx:CHANNELS>
+  </fx:ELEMENTS>
+
+  <fx:PROCESSING-INFORMATION/>
+
+  <fx:REQUIREMENTS/>
+
+</fx:FIBEX>

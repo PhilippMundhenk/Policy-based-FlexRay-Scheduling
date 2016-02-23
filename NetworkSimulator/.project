@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>NetworkSimulator</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>libs/FlexRaySupportClasses.jar</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/FlexRaySupportClasses/bin/lib/FlexRaySupportClasses.jar</locationURI>
+		</link>
+		<link>
+			<name>libs/SchedulingInterfaces.jar</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/workspace/SchedulingInterfaces/bin/lib/SchedulingInterfaces.jar</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

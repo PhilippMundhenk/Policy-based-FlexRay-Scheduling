@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/cplex.jar"/>
+	<classpathentry kind="lib" path="lib/gurobi.jar"/>
+	<classpathentry kind="lib" path="lib/jmpi-cplex.jar"/>
+	<classpathentry kind="lib" path="lib/jmpi-gurobi.jar"/>
+	<classpathentry kind="lib" path="lib/jmpi.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/FlexrayVerifier"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.6.0_43"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/FlexRaySupportClasses"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/NetworkSimulator"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/SchedulingInterfaces"/>
+	<classpathentry kind="lib" path="lib/FIBEX.jar"/>
+	<classpathentry kind="lib" path="lib/jmpi-sat4j.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
