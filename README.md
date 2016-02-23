@@ -1,4 +1,4 @@
-# Policy-based-FlexRay-Scheduling
+# Policy-based FlexRay Scheduling
 This is a scheduling approach for FlexRay. A virtual communication layer allows priority-based scheduling in the FlexRay static segment. See [Reference](#reference) for details.
 
 ## Requirements
