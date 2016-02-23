@@ -1,5 +1,5 @@
 # Policy-based-FlexRay-Scheduling
-This is a scheduling approach for FlexRay. A virtual communication layer allows priority-based scheduling in the FlexRay static segment. See [References](#References) for details.
+This is a scheduling approach for FlexRay. A virtual communication layer allows priority-based scheduling in the FlexRay static segment. See [Reference](#Reference) for details.
 
 ## Requirements
 - The integrated ILP approach requires [SAT4J](http://www.sat4j.org/).
