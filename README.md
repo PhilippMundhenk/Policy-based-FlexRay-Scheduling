@@ -1,9 +1,9 @@
 # Policy-based-FlexRay-Scheduling
-This is a scheduling approach for FlexRay. A virtual communication layer allows priority-based scheduling in the FlexRay static segment. See [Reference](#Reference) for details.
+This is a scheduling approach for FlexRay. A virtual communication layer allows priority-based scheduling in the FlexRay static segment. See [Reference](#reference) for details.
 
 ## Requirements
 - The integrated ILP approach requires [SAT4J](http://www.sat4j.org/).
-- The FlexrayVerifier requires Ptolemyplot in version 5.7.1 for plotting
+- The FlexrayVerifier requires [Ptolemyplot](http://ptolemy.eecs.berkeley.edu/java/ptplot/) in version 5.7.1 for plotting
 - The FlexrayVerifier furthermore requires the [Real-Time Calculus Toolbox](http://www.mpa.ethz.ch/Rtctoolbox/Overview)
 
 ## Issues
